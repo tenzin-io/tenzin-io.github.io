@@ -1,3 +1,26 @@
 theme: minima
+
 title: homelab@tenzin.io
-description: A site for my homelab notes and docs
+description: My homelab notes and docs
+author: "Tenzin Lhakhang"
+
+repository: tenzin-io/tenzin-io.github.io
+github_username: tlhakhan
+
+# Minima: show excerpts in the frontpage
+show_excerpts: false
+
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+
+include:
+    - _pages
+    - _posts
+
+exclude:
+    - .gitignore
+    - LICENSE
