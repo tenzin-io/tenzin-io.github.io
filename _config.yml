@@ -1,13 +1,14 @@
 theme: minima
 
-title: homelab@tenzin.io
-description: My homelab notes and docs
+title: tenzin-io.github.io
+description: tenzin-io
 author: "tenzin"
 
+base_url: /tenzin-io
 repository: tenzin-io/tenzin-io.github.io
 
 # Minima: show excerpts in the frontpage
-show_excerpts: false
+show_excerpts: True
 
 minima:
   date_format: "%Y-%m-%d"
@@ -18,8 +19,11 @@ header_pages:
 
 include:
     - _pages
-    - _posts
 
-exclude:
+exclude: 
     - .gitignore
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
     - LICENSE
+    - README.md
