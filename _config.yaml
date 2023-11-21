@@ -2,10 +2,9 @@ theme: minima
 
 title: homelab@tenzin.io
 description: My homelab notes and docs
-author: "Tenzin Lhakhang"
+author: "tenzin"
 
 repository: tenzin-io/tenzin-io.github.io
-github_username: tlhakhan
 
 # Minima: show excerpts in the frontpage
 show_excerpts: false
